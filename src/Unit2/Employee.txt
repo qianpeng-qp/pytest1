@@ -1,0 +1,2 @@
+﻿emp_id	emp_name	emp_birth	emp_edu	emp_sex	emp_kpi
+1	    小王	    1986/5/6	本科	    男 	    98

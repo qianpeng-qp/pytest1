@@ -1,0 +1,10 @@
+from selenium import webdriver
+
+class DriverInstance:
+    __instance = None
+    @classmethod
+    #转换为静态变量
+    def creat_driver(self):
+        if not self.__instance:
+            self.__instance = webdriver.Chrome()
+        return self.__instance
