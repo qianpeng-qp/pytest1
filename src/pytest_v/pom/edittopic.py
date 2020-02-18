@@ -19,7 +19,7 @@ class EditTopicPage:
     @property
     def alert_msg_text(self):
         '''
-        切换到alert获取文字，并点击确定关闭1
+        切换到alert获取文字，并点击确定关闭
         :return:
         '''
         alert = self.driver.switch_to.alert
