@@ -5,7 +5,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/test/work.py" line="95" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3307ed3-2e6e-4a36-88d8-5d9aec888e16" name="Default Changelist" comment="pytest" />
+    <list default="true" id="e3307ed3-2e6e-4a36-88d8-5d9aec888e16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pytest_v/testcase/test_param.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +56,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pytest_v/testcase/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
+            <state relative-caret-position="108">
               <caret line="4" column="17" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pytest_v/testcase/test_param.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pytest_v/pom/edittopic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="288">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -121,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/0728_sundry/__init__.py" />
         <option value="$PROJECT_DIR$/src/Unit2.py" />
         <option value="$PROJECT_DIR$/src/Unit2/Employee" />
         <option value="$PROJECT_DIR$/src/Unit2/Employee.txt" />
@@ -172,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/pytest_v/testcase/test_login.py" />
         <option value="$PROJECT_DIR$/src/pytest_v/common/utils.py" />
         <option value="$PROJECT_DIR$/src/pytest_v/pom/edittopic.py" />
+        <option value="$PROJECT_DIR$/src/pytest_v/testcase/test_param.py" />
       </list>
     </option>
   </component>
@@ -304,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.utils">
+  <component name="RunManager" selected="Python tests.pytest for test_param.test_01">
     <configuration name="day4_递归" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,28 +383,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seleium_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/seleium_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -447,6 +437,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_param.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pytest_v/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_param.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -465,11 +471,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_param.test_01" />
         <item itemvalue="Python.utils" />
         <item itemvalue="Python tests.pytest for test_login.test_register" />
         <item itemvalue="Python tests.pytest for test_login.test_login" />
         <item itemvalue="Python tests.pytest in test_login.py" />
-        <item itemvalue="Python.seleium_3" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +565,7 @@
       <workItem from="1580782019049" duration="78000" />
       <workItem from="1580783253257" duration="3714000" />
       <workItem from="1582006917253" duration="262000" />
-      <workItem from="1582008768274" duration="3374000" />
+      <workItem from="1582008768274" duration="4281000" />
     </task>
     <task id="LOCAL-00001" summary="pytest">
       <created>1582011613207</created>
@@ -568,16 +574,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582011613207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pytest">
+      <created>1582012309500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582012309500</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pytest">
+      <created>1582012367057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582012367057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testng_NameTestCase_test_get_result - 2019.12.23 at 22h 05m 12s.xml">
-      <configuration name="Unittests for testng.NameTestCase.test_get_result" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_testng_NameTestCase_test_get_result - 2019.12.23 at 22h 05m 24s.xml">
-      <configuration name="Unittests for testng.NameTestCase.test_get_result" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_testng_py - 2019.12.23 at 22h 05m 29s.xml">
       <configuration name="Unittests in testng.py" configurationId="tests" />
     </history-entry>
@@ -602,9 +616,15 @@
     <history-entry file="pytest_for_test_login_test_register - 2020.02.18 at 15h 24m 33s.xml">
       <configuration name="pytest for test_login.test_register" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_param_test_01 - 2020.02.18 at 16h 02m 42s.xml">
+      <configuration name="pytest for test_param.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_param_test_01 - 2020.02.18 at 16h 03m 05s.xml">
+      <configuration name="pytest for test_param.test_01" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307146000" />
+    <option name="totallyTimeSpent" value="308053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,24 +637,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.3147942" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73175967" weight="0.3147942" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918032" weight="0.41713014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32814237" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925472" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946353" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" visible="true" weight="0.3147942" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.26824033" side_tool="true" weight="0.3147942" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3483146" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49892703" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49892703" visible="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32897863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -717,6 +736,7 @@
     <SUITE FILE_PATH="coverage/Python$work.coverage" NAME="work Coverage Results" MODIFIED="1578797941298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/test" />
     <SUITE FILE_PATH="coverage/Python$9_19.coverage" NAME="9-19 Coverage Results" MODIFIED="1577193555243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Unit2" />
     <SUITE FILE_PATH="coverage/Python$Unittests_for_test_name_function_NameTestCase.coverage" NAME="Unittests for test_name_function.NameTestCase Coverage Results" MODIFIED="1563973987690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
+    <SUITE FILE_PATH="coverage/Python$pytest_for_test_param_test_01.coverage" NAME="pytest for test_param.test_01 Coverage Results" MODIFIED="1582012984707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pytest_v/testcase" />
     <SUITE FILE_PATH="coverage/Python$file_reader.coverage" NAME="file_reader Coverage Results" MODIFIED="1576334742113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/doc_1" />
     <SUITE FILE_PATH="coverage/Python$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1577109865664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/api" />
     <SUITE FILE_PATH="coverage/Python$Unittests_in_testng_py.coverage" NAME="Unittests in testng.py Coverage Results" MODIFIED="1577189217973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/api" />
@@ -751,13 +771,6 @@
     <SUITE FILE_PATH="coverage/Python$singdriver.coverage" NAME="singdriver Coverage Results" MODIFIED="1581856480843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pytest_v/common" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="829" selection-start-line="829" selection-end-line="829" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doc_1/file_reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1092,17 +1105,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pytest_v/pom/edittopic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pytest_v/testcase/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
+        <state relative-caret-position="108">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pytest_v/pom/edittopic.py">
+    <entry file="file://$PROJECT_DIR$/src/pytest_v/testcase/test_param.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="189">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
