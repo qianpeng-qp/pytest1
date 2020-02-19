@@ -28,6 +28,7 @@ def iframe():
     driver.find_element_by_id('phoneIpt').send_keys('13020207396')
     driver.find_element_by_id('smsIpt').send_keys('123311')
     driver.switch_to.parent_frame()  #返回上一层
+    #driver.switch_to.default_content() #返回最外层
     driver.find_element_by_xpath('//a[contains(text(),\'关于安居客\')]').click()
 
 def roll():
