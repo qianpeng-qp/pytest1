@@ -8,6 +8,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/pytest_v/common" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/pytest_v/bussiness" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/pytest_v/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/beautiful_report/page" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/beautiful_report/commom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/beautiful_report/API_test" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (Python)" jdkType="Python SDK" />
@@ -17,7 +20,6 @@
     <option name="requirementsPath" value="" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
-    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
