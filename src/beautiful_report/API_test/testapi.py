@@ -38,7 +38,7 @@ class test_topic_api(unittest.TestCase):
         {"limit": 1, "tab": "ask"},
         {"limit": 2, "tab": "share"},
         {"limit": 3, "tab": "job"},
-        #{"limit": 2, "tab": "good"}
+        {"limit": 2, "tab": "good"}
     ]
     url = 'http://39.107.96.138:3000/api/v1/topics'
 
@@ -92,7 +92,11 @@ class test_topic_api(unittest.TestCase):
 
 
 
-    def test_topic_detail(self):
+    def test_topic(self):
+        '''
+        获取topic
+        :return:
+        '''
         print(self.topic_id)
         detail_url = 'http://39.107.96.138:3000/api/v1' + '/topic/' + test_topic_api.topic_id
         paramsdata = {'mdrender': 'false'}
