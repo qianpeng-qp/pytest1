@@ -92,7 +92,7 @@ class test_topic_api(unittest.TestCase):
 
 
 
-    def test_topic(self):
+    def test_topic_tt(self):
         '''
         获取topic
         :return:
