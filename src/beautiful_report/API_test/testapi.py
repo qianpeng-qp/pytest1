@@ -1,9 +1,9 @@
 import requests
 import unittest
-from ddt import ddt, data
+import ddt
 
 
-@ddt
+@ddt.ddt
 class test_topic_api(unittest.TestCase):
     '''
     接口测试：数据驱动
@@ -38,11 +38,11 @@ class test_topic_api(unittest.TestCase):
         {"limit": 1, "tab": "ask"},
         {"limit": 2, "tab": "share"},
         {"limit": 3, "tab": "job"},
-        {"limit": 2, "tab": "good"}
+        #{"limit": 2, "tab": "good"}
     ]
     url = 'http://39.107.96.138:3000/api/v1/topics'
 
-    @data(*testdata)
+    @ddt.data(*testdata)
     def test_math(self, value):
         url = 'http://39.107.96.138:3000/api/v1/topics'
         print(type(value), value)
@@ -61,6 +61,57 @@ class test_topic_api(unittest.TestCase):
 
         for obj in data:
             assert obj['tab'] == value['tab'], f"tab 值应该为{value['tab']}"
+
+    def test_new_topic(self):
+        '''
+        发帖
+        :return:
+        '''
+        baseurl = 'http://39.107.96.138:3000/api/v1'
+        url = baseurl + '/topics'
+        testdata = {
+            "accesstoken": "fc45e11f-6017-41c1-a659-fd5b11bd805d",
+            "title": "1111ssssssss",
+            "tab": "ask",
+            "content": "xxxxxxxxxxxxx"
+        }
+        r = requests.post(url=url, data=testdata)
+        print(r.json())
+        # 请求头信息
+        print(r.request.headers)
+        json = r.json()
+        assert r.status_code == 200
+
+        success = json['success']
+        assert success
+
+        test_topic_api.topic_id = json['topic_id']
+        assert test_topic_api.topic_id  is not None
+        return test_topic_api.topic_id
+
+
+
+
+    def test_topic_detail(self):
+        print(self.topic_id)
+        detail_url = 'http://39.107.96.138:3000/api/v1' + '/topic/' + test_topic_api.topic_id
+        paramsdata = {'mdrender': 'false'}
+        res = requests.get(url=detail_url, params=paramsdata)
+        assert res.status_code == 200
+        resjson = res.json()
+
+        assert resjson['success']
+
+        resjsondata = resjson['data']
+        testdata = {
+            "accesstoken": "fc45e11f-6017-41c1-a659-fd5b11bd805d",
+            "title": "1111ssssssss",
+            "tab": "ask",
+            "content": "xxxxxxxxxxxxx"
+        }
+        assert resjsondata['tab'] == testdata["tab"], "发帖板块应该为" + testdata['tab']
+        assert resjsondata['title'] == testdata["title"], "发帖标题应该为" + testdata['title']
+        assert resjsondata['content'] == testdata["content"], "发帖内容应该为" + testdata['content']
 
 
 if __name__ == '__main__':
